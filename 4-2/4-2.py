@@ -15,4 +15,4 @@ else:
     bonus = 200
 
 print("Employee's name: "+name)
-print("Employee's bonus:",bonus)
+print("Employee's bonus: $"+str(bonus))
