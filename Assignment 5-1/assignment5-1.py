@@ -1,8 +1,9 @@
-a = 1
-b = 2
-c = 5
-
-while a < c:
-    a = a + 1
-    b = b + c
-print (a,b,c)
+p = 2
+q = 4
+while p < q:
+    print("Adios")
+    r = 1
+    while r < q:
+        print("Adios")
+        r = r + 1
+    p = p + 1
