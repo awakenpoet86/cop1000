@@ -68,9 +68,7 @@ def main():
             elif choice == 4:  # DELETE vehicle
                 with open(filename, 'r') as file:
                     vehicles = file.read().splitlines()
-                #print("\nThe following vehicles are currently authorized:")
-                #for vehicle in vehicles:
-                    #print(vehicle)
+
                 car = input("\nEnter the full vehicle name you would like to remove: ").strip()
                 response = input('\033[1m'+"Are you sure you want to remove \""+ car +"\" from the Authorized Vehicles List? " +'\033[0m')
               
