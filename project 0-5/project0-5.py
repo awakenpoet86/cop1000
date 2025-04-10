@@ -6,7 +6,7 @@ def removeCar(filename, car):
     with open(filename, 'r') as file:
         lines = file.readlines()
         
-    # Find and remove the line (case-sensitive)
+    # Find and remove the line 
     for i, line in enumerate(lines):
         if line.strip() == car.strip():
             del lines[i]
@@ -68,7 +68,7 @@ def main():
             elif choice == 4:  # DELETE vehicle
                 with open(filename, 'r') as file:
                     vehicles = file.read().splitlines()
-                
+               
                 car = input("\nEnter the full vehicle name you would like to remove: ").strip()
                 response = input('\033[1m'+"Are you sure you want to remove \""+ car +"\" from the Authorized Vehicles List? " +'\033[0m')
               
